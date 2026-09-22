@@ -9,3 +9,5 @@ PORT=$(head -n 1 "$CONF" | tr -cd '0-9')
 setprop service.adb.tcp.port "${PORT}"
 stop adbd
 start adbd
+
+echo "ADB restarted, port: $PORT"
