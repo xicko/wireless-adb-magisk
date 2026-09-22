@@ -1,0 +1,6 @@
+id=wireless-adb
+name=Wireless ADB
+version=v0.1.0
+versionCode=1
+author=xicko
+description=Persistent wireless ADB Debugging

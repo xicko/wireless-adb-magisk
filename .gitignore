@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux / Editor backups
+*~
+*.swp
+*.swo
+
+# IDEs
+.idea/
+.vscode/
+
+# Build artifacts & packages
+*.zip
+*.tar
+*.gz
+
+# Temporary / Log files
+*.log
+*.tmp
+*.bak
