@@ -11,5 +11,8 @@ port=5555
 allowTailnetOnly=false
 ```
 
-After modifying, open Magisk Manager app and run the module action to apply changes.
+- port: A valid port number between 1 to 65535
+- allowTailnetOnly: Restricts ADB traffic exclusively to authenticated nodes on your tailnet (Tailscale)
+
+After modifying the config, open Magisk Manager app and run the module action to apply changes.
 ![Module Screenshot](assets/screenshot.png)
